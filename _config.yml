@@ -3,8 +3,9 @@ server: true
 exclude: README.md, .gitignore
 permalink: none
 baseurl: 
-url: http://nodedc.org
-hashtag: '#nodedc'
+url: http://nodecpt.github.com
+siteName: 'Node.CPT'
+hashtag: '#nodecpt'
 github_login: 'developmentseed'
 github_repo: 'bones'
 github_language: 'JavaScript'

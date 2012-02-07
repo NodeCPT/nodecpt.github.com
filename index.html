@@ -1,10 +1,10 @@
 ---
 layout: default
-title: node.dc
+title: node.cpt
 rss: /blog.rss
 ---
-<div class='events prose'>
-  {% for item in site.categories['events'] limit:3 %}
-  {% include event.html %}
+<section class='posts'>
+  {% for item in site.posts limit:5 %}
+  {% include post.html %}
   {% endfor %}
-</div>
+</section>

@@ -1,105 +1,45 @@
 ---
 ---
-{% include css/reset.css %}
-
-body {
-  background:#fff url(assets/background.png);
-  color:#444;
-  font:normal 14px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  }
+{% include css/bootstrap.min.css %}
 
 a {
   text-decoration:none;
-  color: #4183C4;
   }
 
-.limiter {
-  width:760px;
-  margin:0px auto;
+body { 
+  padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+  background:#fff url(http://subtlepatterns.com/patterns/bright_squares.png);
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
+.brand {
+   width: 350px;
+   background: url(/assets/logo.png) top left no-repeat;
+   text-indent: -9999px;
+   overflow: hidden;
+}
 
-aside {
-  position:relative;
-  float:right;
-  width:210px;
-  margin-top:175px;
-  }
+section.posts { 
+  padding-left: 10px;
+}
 
-header .logo {
-  height:175px;
-  background:url(assets/logo.png) no-repeat 50% 50%;
-  display:block;
-  overflow:hidden;
-  text-indent:-9999px;
-  }
+#sidebar .btn { 
+  margin: 0 15px;
+  width: 190px;
+}
 
-#main,
-header .logo {
-  width:530px;
-  }
+.followers { 
+    width: 220px;
+    margin: 10px
+}
+.followers > li {
+    margin: 0 0 5px 5px;
+}
 
-#content {
-  padding:0px 20px 20px;
-  }
-
-.followers,
-.follower-project,
-.tweets,
-.editing { margin-bottom:10px; }
-
-.prose h1,
-.prose h2 {
-  font-family: 'Jockey One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size:22px;
-  font-weight:normal;
-  }
-
-/* Prose */
-.prose h1,
-.prose h2,
-.prose h3,
-.prose h4,
-.prose h5,
-.prose h6 { color:#000; }
-
-.prose h1,
-.prose h2,
-.prose h3,
-.prose h4,
-.prose h5,
-.prose h6,
-.prose p,
-.prose ul,
-.prose ol,
-.prose hr,
-.prose img,
-.prose blockquote,
-.prose pre,
-.prose table,
-.prose iframe,
-.prose object,
-.prose .ts-map {
-  display:block;
-  margin:0px 0px 20px;
-  }
-
-a.github-user,
-a.tweet {
-  display:block;
-  height:48px;
-  width:48px;
-  margin: 0px 4px 4px 0px;
-  float:left;
-  position: relative;
-  }
-
-.thumb {
-  display:block;
-  height:48px;
-  width:48px;
-  background:white 50% 50% no-repeat;
-  background-size:48px;
-  }
+.followers > li.span1 {
+    width: 50px;
+}
 
 .popup {
   display:none;
@@ -119,34 +59,6 @@ a.tweet {
 .popup small {
   display: block;
   font-size: 12px;
-  }
-
-.tweet:hover,
-.github-user:hover { z-index:1; }
-.tweet:hover .caret,
-.tweet:hover .popup,
-.github-user:hover .caret,
-.github-user:hover .popup { display:block; }
-
-.buttons {
-  margin-bottom:10px;
-  width:205px;
-  }
-
-.buttons a {
-  text-align:center;
-  font-size:15px;
-  line-height:36px;
-  display:block;
-  margin:0;
-  padding:0;
-  padding:4px;
-  color: #333;
-  background:#FBDFBC;
-  text-shadow: 1px 1px 0 white;
-  -webkit-border-radius:5px;
-  -moz-border-radius:5px;
-  border-radius:5px;
   }
 
 .watch-docs {
@@ -186,26 +98,3 @@ a.tweet {
     text-align:center;
     }
 
-.editing {
-  font-size:11px;
-  line-height:16px;
-  }
-
-/*
-** Markup free clearing
-** Details: http://www.positioniseverything.net/easyclearing.html
-*/
-.clearfix:after {
-  content: ".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-  }
-
-.clearfix { display: inline-block; }
-
-/* Hides from IE-mac \*/
-* html .clearfix { height: 1%; }
-.clearfix { display: block; }
-/* End hide from IE-mac */
