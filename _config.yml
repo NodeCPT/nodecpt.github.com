@@ -4,8 +4,8 @@ exclude: README.md, .gitignore
 permalink: none
 baseurl: 
 url: http://nodecpt.github.com
-siteName: 'Node.CPT'
+siteName: 'Node Cape Town'
 hashtag: '#nodecpt'
-github_login: 'developmentseed'
-github_repo: 'bones'
+github_login: 'nodecpt'
+github_repo: 'nodecpt'
 github_language: 'JavaScript'
