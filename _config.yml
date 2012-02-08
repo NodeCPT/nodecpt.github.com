@@ -2,8 +2,7 @@ auto: true
 server: true
 exclude: README.md, .gitignore
 permalink: none
-baseurl: 
-url: http://nodecpt.github.com
+baseurl: http://nodecpt.github.com
 siteName: 'Node Cape Town'
 hashtag: '#nodecpt'
 github_login: 'nodecpt'
