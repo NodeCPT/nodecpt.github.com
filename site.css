@@ -5,39 +5,55 @@
 a {
   text-decoration:none;
   color: #46483E;
-  }
+}
 
 body { 
   color: #33342D;
-  padding-top: 140px; /* 80px to make the container go all the way to the bottom of the topbar */
   background:#fff url(assets/background.png);
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
-  color: #46483E;
-  }
-
-.navbar-inner .brand {
-   background: url(/assets/logo.png) top left no-repeat;
-   overflow: hidden;
-   text-indent: -9999px;
-   margin: 0 auto;
-   height: 70px;
-   width: 600px;
-   margin: 20px auto 10px auto;
+  
+  color: red;
 
 }
 
-.navbar-inner {
-  background: rgb(51,52,45); /* Old browsers */
-  background: -moz-linear-gradient(top,  rgba(51,52,45,1) 0%, rgba(70,72,62,1) 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(51,52,45,1)), color-stop(100%,rgba(70,72,62,1))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  rgba(51,52,45,1) 0%,rgba(70,72,62,1) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  rgba(51,52,45,1) 0%,rgba(70,72,62,1) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  rgba(51,52,45,1) 0%,rgba(70,72,62,1) 100%); /* IE10+ */
-  background: linear-gradient(top,  rgba(51,52,45,1) 0%,rgba(70,72,62,1) 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33342d', endColorstr='#46483e',GradientType=0 ); /* IE6-9 */
+header h1 {
+  font-size: 50px;
+  line-height: 48px;
+  text-align: center;
+  padding-top: 20px;
+  background: url(/assets/masthead.png) center bottom no-repeat;
+  padding-top: 20px;
+  height: 90px;
+  max-width: 600px;
+  margin: 0 auto 10px auto;
+}
+
+header h1 a {
+  color: rgba(255,120,96,1);
+  margin-top : 40px;
+  display: block;
+  text-shadow: 0px 1px 1px #33342D;
+}
+
+header {
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+
+header {
+background: rgb(255,200,145); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,200,145,1) 0%, rgba(255,173,96,1) 44%, rgba(255,120,96,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,200,145,1)), color-stop(44%,rgba(255,173,96,1)), color-stop(100%,rgba(255,120,96,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,200,145,1) 0%,rgba(255,173,96,1) 44%,rgba(255,120,96,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,200,145,1) 0%,rgba(255,173,96,1) 44%,rgba(255,120,96,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,200,145,1) 0%,rgba(255,173,96,1) 44%,rgba(255,120,96,1) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(255,200,145,1) 0%,rgba(255,173,96,1) 44%,rgba(255,120,96,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc891', endColorstr='#ff7860',GradientType=0 ); /* IE6-9 */
+  
+  
 }
 
 section.posts { 
@@ -50,15 +66,15 @@ section.posts {
 }
 
 .followers { 
-    width: 220px;
-    margin: 10px
+  width: 220px;
+  margin: 10px
 }
 .followers > li {
-    margin: 0 0 5px 5px;
+  margin: 0 0 5px 5px;
 }
 
 .followers > li.span1 {
-    width: 50px;
+  width: 50px;
 }
 
 .popup {
@@ -72,14 +88,14 @@ section.posts {
   border-radius:5px;
   -moz-border-radius:5px;
   -webkit-border-radius:5px;
-  }
+}
 
 .popup * { color:#fff; }
 
 .popup small {
   display: block;
   font-size: 12px;
-  }
+}
 
 .watch-docs {
   opacity:0;
@@ -98,23 +114,23 @@ section.posts {
   transition:opacity .25s, z-index 0s .25s;
   -moz-transition:opacity .25s, z-index 0s .25s;
   -webkit-transition:opacity .25s, z-index 0s .25s;
-  }
+}
 
-  .watch-docs.active {
-    opacity:100;
-    z-index:0;
-    transition:opacity .25s, z-index 0s 0s;
-    -moz-transition:opacity .25s, z-index 0s 0s;
-    -webkit-transition:opacity .25s, z-index 0s 0s;
-    }
+.watch-docs.active {
+  opacity:100;
+  z-index:0;
+  transition:opacity .25s, z-index 0s 0s;
+  -moz-transition:opacity .25s, z-index 0s 0s;
+  -webkit-transition:opacity .25s, z-index 0s 0s;
+}
 
-  .watch-docs ol {
-    list-style-type:decimal;
-    padding-left:20px
-    }
+.watch-docs ol {
+  list-style-type:decimal;
+  padding-left:20px
+}
 
-  .watch-docs img {
-    margin:10px 15px 0px;
-    text-align:center;
-    }
+.watch-docs img {
+  margin:10px 15px 0px;
+  text-align:center;
+}
 
