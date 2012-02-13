@@ -1,8 +1,14 @@
+<acronym class="published" title="{{item.date | date:"%b %d %Y"}}">
+	<span class="pub-month">{{item.date | date:"%b"}}</span>
+	<span class="pub-date">{{item.date | date:"%d"}}</span>
+</acronym>
+
+
 <h2>{{item.title}}</h2>
-<small class='date'>
-{{item.date | date:"%b %d %Y"}}
-</small>
+<span class='label'>Location</span><a href='{{item.locationLink}}'>{{item.location}}</a>
 {% if item.rsvp_url %}
 <a href='{{item.rsvp_url}}'>RSVP</a>
 {% endif %}
-{{item.content}}
+<div class='content'>
+  {{item.content}}
+</div>
