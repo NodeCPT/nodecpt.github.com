@@ -3,6 +3,7 @@ title: Inaugural node.js social
 layout: post
 location: Greens, Park Rd, Gardens
 locationLink: http://www.greensrestaurants.co.za/gardens/directions.htm
+time: 18:30
 ---
 We have decided to organize a meet and greet this week to get the wheels rolling on this user group.
 
