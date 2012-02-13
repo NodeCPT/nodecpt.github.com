@@ -1,12 +1,12 @@
 ---
-title: Inaugral node.js social
+title: Inaugural node.js social
 layout: post
 location: Greens, Park Rd, Gardens
 locationLink: http://www.greensrestaurants.co.za/gardens/directions.htm
 ---
 We have decided to organize a meet and greet this week to get the wheels rolling on this user group.
 
-We do plan on announcing a more formal meetup soon, but it would be nice to get to know each other a bit before hand. 
+We do plan on announcing a more formal meetup soon, but it would be nice to get to know each other a bit beforehand. 
 
 If you are interested in taking part in this node.js user group, please join us on thursday for a couple of beers and some interesting conversation.
 
