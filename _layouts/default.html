@@ -21,7 +21,7 @@
     <h1><a class="brand" href="/">Node.js Cape Town</a></h1>
   </header>
   
-  <div class='container'>
+  <div class='main'><div class='container'>
      <div class='row'>
       <div id='content' class='span5 offset2'>{{content}}</div>
       <div id='sidebar' class='span3'>
@@ -39,7 +39,17 @@
         <ul class='followers thumbnails'></ul>
       </div>
     </div>
-  </div>
+  </div></div>
+
+  <footer class='container'>
+     <div class='row'>
+       <div id='content' class='span5 offset2'>
+         <h4>Follow <a href='http://twitter.com/NodeCPT'>@NodeCPT</a> for the latest info</h4>
+         <div class="tweets"></div>
+       </div>
+     </div>
+  </footer>
+
   <script id='watcherTpl' type='text/underscore'>
     <li class='span1'>
     <a class='github-user thumbnail' target='_blank'
@@ -48,6 +58,10 @@
         <img src='<%= model.get('avatar_url') %>' />
       </a>
     </li>
+  </script>
+
+  <script id='tweetTpl' type='text/undercore'>
+    <h5>What people are tweeting</h5>
   </script>
   <script src='{{base}}site.js' type='text/javascript'></script>
   <script src='https://raw.github.com/caolan/async/master/dist/async.min.js' type='text/javascript'></script>

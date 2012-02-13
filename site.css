@@ -11,9 +11,20 @@ a:hover {
   color:  #FF3A1C;
 }
 
+.main {
+  background-color: #fcfcff;
+  padding: 10px 0;
+
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+.content { margin-top: 15px; }
+
 body { 
-  color: #33342D;
-  background:#fcfcff;
+  color: #333;
+  background:#eee url(assets/background.png);
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -28,7 +39,7 @@ header h1 {
   padding-top: 30px;
   height: 90px;
   max-width: 600px;
-  margin: 0 auto 10px auto;
+  margin: 0 auto 0 auto;
 }
 
 header h1 a {
@@ -58,6 +69,8 @@ header {
 }
 
 header {
+  position: relative;
+  z-index: 20;
   background: rgb(255,200,145); /* Old browsers */
   background: -moz-linear-gradient(top,  rgba(255,200,145,1) 0%, rgba(255,173,96,1) 44%, rgba(255,120,96,1) 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,200,145,1)), color-stop(44%,rgba(255,173,96,1)), color-stop(100%,rgba(255,120,96,1))); /* Chrome,Safari4+ */
@@ -66,19 +79,19 @@ header {
   background: -ms-linear-gradient(top,  rgba(255,200,145,1) 0%,rgba(255,173,96,1) 44%,rgba(255,120,96,1) 100%); /* IE10+ */
   background: linear-gradient(top,  rgba(255,200,145,1) 0%,rgba(255,173,96,1) 44%,rgba(255,120,96,1) 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc891', endColorstr='#ff7860',GradientType=0 ); /* IE6-9 */
-
-  margin-bottom: 40px;
 }
 
-section.posts { 
-  padding-left: 10px;
+footer {
+  width: 100%;
+  padding-top: 10px;
 }
+
 
 #sidebar .btn { 
   margin: 0 15px;
   width: 190px;
 }
-.content { margin-top: 15px; }
+
 span.label { margin-right: 5px; }
 
 .followers { 
@@ -88,29 +101,8 @@ span.label { margin-right: 5px; }
 .followers > li {
   margin: 0 0 5px 5px;
 }
-
 .followers > li.span1 {
   width: 50px;
-}
-
-.popup {
-  display:none;
-  position:absolute;
-  right:55px;
-  top:-5px;
-  width:180px;
-  padding:5px 20px 5px 10px;
-  background:black;
-  border-radius:5px;
-  -moz-border-radius:5px;
-  -webkit-border-radius:5px;
-}
-
-.popup * { color:#fff; }
-
-.popup small {
-  display: block;
-  font-size: 12px;
 }
 
 .watch-docs {
