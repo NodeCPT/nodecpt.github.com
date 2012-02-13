@@ -23,7 +23,10 @@
   
   <div class='main'><div class='container'>
      <div class='row'>
-      <div id='content' class='span5 offset2'>{{content}}</div>
+       <div id='content' class='span5 offset2'>
+         {{content}}
+          <h4>Follow <a href='http://twitter.com/NodeCPT'>@NodeCPT</a> for the latest info</h4>
+       </div>
       <div id='sidebar' class='span3'>
         <a class='watch btn btn-large btn-primary' 
           href='http://github.com/{{site.github_login}}/{{site.github_repo}}'>Watch this event</a>
@@ -37,15 +40,16 @@
           <img src='assets/watch.png' />
         </div>
         <ul class='followers thumbnails'></ul>
+
       </div>
     </div>
   </div></div>
 
   <footer class='container'>
      <div class='row'>
-       <div id='content' class='span5 offset2'>
-         <h4>Follow <a href='http://twitter.com/NodeCPT'>@NodeCPT</a> for the latest info</h4>
-         <div class="tweets"></div>
+       <div id='content' class='span8 offset2'>
+         <h5>Tweets that mention #NodeCPT</h5>
+         <ul class="tweets thumbnails"></ul>
        </div>
      </div>
   </footer>
@@ -61,7 +65,14 @@
   </script>
 
   <script id='tweetTpl' type='text/undercore'>
-    <h5>What people are tweeting</h5>
+    <li class='span1'>
+    <a class='tweet thumbnail' target='_blank'
+      data-title='<%= model.get('from_user') %>'
+      data-content='<%= model.escape('text') %>'
+      href='http://twitter.com/<%=model.get('from_user')%>/status/<%=model.get('id_str')%>'>
+        <img src='<%= model.get('profile_image_url') %>' />
+      </a>
+    </li>
   </script>
   <script src='{{base}}site.js' type='text/javascript'></script>
   <script src='https://raw.github.com/caolan/async/master/dist/async.min.js' type='text/javascript'></script>

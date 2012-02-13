@@ -3,6 +3,7 @@ server: true
 exclude: README.md, .gitignore
 permalink: none
 baseurl: http://nodecpt.github.com/
+twitter_search: '#nodecpt OR @nodecpt -from:Nodejs_bot'
 siteName: 'Node Cape Town'
 hashtag: '#nodecpt'
 github_login: 'nodecpt'
