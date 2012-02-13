@@ -49,7 +49,7 @@ $(function() {
             this.collection.each(function (m) {
                 self.$el.append(self.template({model: m}));
             });
-            $('.github-user').popover({placement: 'left', title:'GitHub User'});
+            $('.github-user').popover({placement: 'left'});
             return this;
         }
     });
