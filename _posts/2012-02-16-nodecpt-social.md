@@ -10,4 +10,4 @@ We do plan on announcing a more formal meetup soon, but it would be nice to get 
 
 If you are interested in taking part in this node.js user group, please join us on thursday for a couple of beers and some interesting conversation.
 
-We are hoping to get a handle on the size of the community and it's general interests. This information will help us plan the format and content of future meetups.
+We are hoping to get a handle on the size of the community and its general interests. This information will help us plan the format and content of future meetups.
