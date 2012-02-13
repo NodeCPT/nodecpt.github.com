@@ -67,7 +67,7 @@ header {
   background: linear-gradient(top,  rgba(255,200,145,1) 0%,rgba(255,173,96,1) 44%,rgba(255,120,96,1) 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc891', endColorstr='#ff7860',GradientType=0 ); /* IE6-9 */
 
-
+  margin-bottom: 40px;
 }
 
 section.posts { 
