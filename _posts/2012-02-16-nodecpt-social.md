@@ -13,6 +13,4 @@ If you are interested in taking part in this node.js user group, please join us 
 
 We are hoping to get a handle on the size of the community and its general interests. This information will help us plan the format and content of future meetups.
 
-Follow [@NodeCPT](http://twitter.com/NodeCPT) for the latest info.
-
 **UPDATE:** We are moving the location so that we can join up with the codebridge Happy Hour which was already planned to take place at exactly the same time. Arrive, meet people, have some beers (we'll bring a few) and we'll take it from there. More details on the [codebridge wiki](http://www.codebridge.co.za/doku.php?id=happy_hour).
