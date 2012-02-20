@@ -1,20 +1,24 @@
-<acronym class="published" title="{{item.date | date:"%b %d %Y"}}">
-	<span class="pub-month">{{item.date | date:"%b"}}</span>
-	<span class="pub-date">{{item.date | date:"%d"}}</span>
+<acronym class="published" title="{{page.date | date:"%b %d %Y"}}">
+	<span class="pub-month">{{page.date | date:"%b"}}</span>
+	<span class="pub-date">{{page.date | date:"%d"}}</span>
 </acronym>
 
-<h2>{{item.title}}</h2>
-{% if item.locationLink %}
-  <span class='label'>Location</span><a href='{{item.locationLink}}'>{{item.location}}</a>
+<a href='{{ page.url }}'><h2>{{page.title}}</h2></a>
+{% if page.locationLink %}
+  <span class='label'>Location</span><a href='{{page.locationLink}}'>{{page.location}}</a>
 {% endif %}
 
-{% if item.time %}
-  <span class='label'>Time</span>{{item.time}}
+{% if page.time %}
+  <span class='label'>Time</span>{{page.time}}
 {% endif %}
 
-{% if item.rsvp_url %}
-<a href='{{item.rsvp_url}}'>RSVP</a>
+{% if page.rsvp_url %}
+<a href='{{page.rsvp_url}}'>RSVP</a>
 {% endif %}
 <div class='content'>
-  {{item.content}}
+  {% if content %}
+    {{content}}
+  {% else %}
+    {{page.content}}
+  {% endif %}
 </div>

@@ -1,6 +1,6 @@
 ---
 title: Feedback from February Social 
-layout: default 
+layout: post 
 category: feedback
 images:
   -

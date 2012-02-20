@@ -4,7 +4,7 @@ title: Node Cape Town
 rss: /blog.rss
 ---
 <section class='posts'>
-  {% for item in site.posts limit:5 %}
+  {% for page in site.posts limit:5 %}
     {% include post.html %}
   {% endfor %}
 </section>
