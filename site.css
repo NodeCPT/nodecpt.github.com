@@ -26,9 +26,12 @@ body {
   color: #333;
   background:#eee url(assets/background.png);
 }
+h1, h2 {
+
+  color: #FF3A1C;
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #FF3A1C;
 }
 
 header h1 {

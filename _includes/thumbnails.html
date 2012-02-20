@@ -1,0 +1,11 @@
+<ul class='thumbnails'>
+  {% for img in page.images %}
+  <li class='span{% if img.span %}{{img.span}}{% else %}2{% endif %}'>
+    {% if img.href %}
+      <a href='{{img.href}}' class='thumbnail'><img src='{{img.src}}' /></a>
+    {% else %}
+      <div class='thumbnail'><img src='{{img.src}}' /></div>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
