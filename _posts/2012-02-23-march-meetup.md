@@ -16,7 +16,7 @@ time: "2012-03-01 18:30:00"
 Our first official meetup is going to be happening on the __1st of March 2012__ at [CodeBridge](http://www.codebridge.co.za/doku.php?id=directions) in Claremont.
 
 
-Our goal this time is going to give everybody a crash course about exactly what node.js is, how it works and when you should use it. If you have heard about it, but haven't been sure if it is for you, then you should come to this meeting. Experts are also welcome.
+Our goal this time is going to give everybody a crash course about exactly what node.js is, how it works and when you should use it. If you have heard about it, but aren't sure if it is for you, then you should come to this meeting. Experts are also welcome.
 
 There will be beer provided at the venue, and if you want to come earlier to hang out with us, the door will be open. We will try to get the presentation started by 18:30, and will try to get everything 'official' wrapped up by 20:00 at the very latest so people can grab something to eat.
 
