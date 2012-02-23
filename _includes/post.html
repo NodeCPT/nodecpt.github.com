@@ -1,20 +1,8 @@
-<acronym class="published" title="{{page.date | date:"%b %d %Y"}}">
-	<span class="pub-month">{{page.date | date:"%b"}}</span>
-	<span class="pub-date">{{page.date | date:"%d"}}</span>
-</acronym>
 
 <a href='{{ page.url }}'><h2>{{page.title}}</h2></a>
-{% if page.locationLink %}
-  <span class='label'>Location</span><a href='{{page.locationLink}}'>{{page.location}}</a>
-{% endif %}
-
-{% if page.time %}
-  <span class='label'>Time</span>{{page.time}}
-{% endif %}
-
-{% if page.rsvp_url %}
-<a href='{{page.rsvp_url}}'>RSVP</a>
-{% endif %}
+<div class='meta'>
+  <span class='label'>Published</span> {{page.date | date:"%d %B %Y"}}
+</div>
 <div class='content'>
   {% if content %}
     {{content}}

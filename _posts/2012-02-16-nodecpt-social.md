@@ -3,7 +3,7 @@ title: Inaugural node.js social
 layout: post
 location: codebridge
 locationLink: http://www.codebridge.co.za/doku.php?id=happy_hour
-time: 1800
+time: "2012-02-16 18:00"
 ---
 We have decided to organize a meet and greet this week to get the wheels rolling on this user group.
 

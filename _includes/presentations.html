@@ -1,0 +1,12 @@
+<div class='presentations'>
+  <h3>Presentations</h3>
+
+  <ul class='unstyled'>
+    {% for p in page.presentations %}
+    <li class='well'>
+    <h4>{{p.title}} by <a href='http://github.com/{{p.github}}/'>{{p.name}}</a></h4>
+    {{p.description}}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
