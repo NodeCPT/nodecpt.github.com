@@ -33,7 +33,6 @@ models.Tweets = Backbone.Collection.extend({
     sync: function (method, model, options) {
         options.timeout = 10000;
         options.dataType = "jsonp";
-        console.log(arguments);
         if (method === 'read') {
             options.data = { q: '{{site.twitter_search}}', rpp:100 };
         }
