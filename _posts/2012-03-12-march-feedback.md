@@ -4,7 +4,7 @@ layout: post
 category: feedback
 images:
   -
-    span: 4
+    span: 2 
     href: /images/2012-03-12/photo1.jpeg
     src: /images/2012-03-12/photo1.thumb.png
   -
@@ -13,9 +13,6 @@ images:
   -
     href: /images/2012-03-12/photo3.jpeg
     src: /images/2012-03-12/photo3.thumb.png
-  -
-    href: /images/2012-03-12/photo4.jpeg
-    src: /images/2012-03-12/photo4.thumb.png
 
 ---
 
