@@ -22,9 +22,9 @@ presentations:
     name: Tim Lind
 
 
-time: "2012-04-26 18:30:00"
+time: "2012-05-03 18:30:00"
 ---
-__Imporant Notice:__ Due to some technical difficulties, and the lower than expected pre-easter attendance, we have decided to reschedule our April meetup to be held on the __26th of April 2012__ at [CodeBridge](http://www.codebridge.co.za/doku.php?id=directions) in Claremont.
+<div class='alert'>__Imporant Notice:__ Due to some technical difficulties, and the preponderance of long weekends in the silly season, we have decided to reschedule our April meetup to be held on the __3rd of May 2012__ at [CodeBridge](http://www.codebridge.co.za/doku.php?id=directions) in Claremont.</div>
 
 We will be having a series of show-and-tell session about projects that have been built with Node.js and especially those that play to it's strengths.
 
