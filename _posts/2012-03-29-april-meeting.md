@@ -24,7 +24,7 @@ presentations:
 
 time: "2012-05-03 18:30:00"
 ---
-<div class='alert'>__Imporant Notice:__ Due to some technical difficulties, and the preponderance of long weekends in the silly season, we have decided to reschedule our April meetup to be held on the __3rd of May 2012__ at [CodeBridge](http://www.codebridge.co.za/doku.php?id=directions) in Claremont.</div>
+__Imporant Notice:__ Due to some technical difficulties, and the preponderance of long weekends in the silly season, we have decided to reschedule our April meetup to be held on the __3rd of May 2012__ at [CodeBridge](http://www.codebridge.co.za/doku.php?id=directions) in Claremont.
 
 We will be having a series of show-and-tell session about projects that have been built with Node.js and especially those that play to it's strengths.
 
