@@ -89,24 +89,28 @@ footer {
   padding-top: 10px;
 }
 
+.followers li {
+  float: left;
+  margin: 5px 0 0 6px;
 
-#sidebar .btn { 
-  margin: 0 15px;
+  border-radius: 4px;
+  border: 1px solid rgba(0,0,0,0.5);
+  overflow: hidden;
+  width: 45px;
+  height: 45px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25)
+}
+
+.github-user img {
+  width: 45px;
+  height: 45px;
+}
+#sidebar .btn {
   width: 190px;
 }
-
 span.label { margin-right: 5px; }
-
-.followers { 
-  width: 220px;
-  margin: 10px
-}
-.followers > li {
-  margin: 0 0 5px 5px;
-}
-.followers > li.span1 {
-  width: 50px;
-}
 
 .watch-docs {
   opacity:0;
