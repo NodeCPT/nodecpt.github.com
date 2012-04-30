@@ -2,6 +2,28 @@
 ---
 {% include css/bootstrap.min.css %}
 
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+
+
+body, p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #333;
+  font-family: 'Karla', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+h1 { font-size: 38px; }
+h2 { font-size: 28px; }
+h3 { font-size: 18px; line-height: 26px; }
+h4 { font-size: 16px; line-height: 30px; }
+
+
 a {
   text-decoration:none;
   color:rgba(255,120,96,1);
@@ -11,31 +33,32 @@ a:hover {
   color:  #FF3A1C;
 }
 
+body { background:#eee url(assets/background.png); }
+h1, h2 { color: #FF3A1C; }
+
 .main {
   background-color: #fcfcff;
-  padding: 10px 0;
-
+  padding: 10px 20px;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 0 0 4px 4px;
 }
 
-.content { margin-top: 15px; }
-
-body { 
-  color: #333;
-  background:#eee url(assets/background.png);
-}
-h1, h2 {
-
-  color: #FF3A1C;
-}
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+.main {
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ffffff 0%, #f0f0f0 80%, #f3f3f3 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(80%,#f0f0f0), color-stop(100%,#f3f3f3)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#f0f0f0 80%,#f3f3f3 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #ffffff 0%,#f0f0f0 80%,#f3f3f3 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #ffffff 0%,#f0f0f0 80%,#f3f3f3 100%); /* IE10+ */
+  background: linear-gradient(top,  #ffffff 0%,#f0f0f0 80%,#f3f3f3 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f3f3f3',GradientType=0 ); /* IE6-9 */
 }
 
 header h1 {
-  font-size: 40px;
+  font-family: 'Audiowide', cursive;
+  font-size: 30px;
   text-align: center;
   padding-top: 20px;
   background: url(/assets/masthead.png) center bottom no-repeat;
@@ -47,23 +70,26 @@ header h1 {
 
 header h1 a {
   color: rgba(255,120,96,1);
-  margin-top : 40px;
   display: block;
-  text-shadow: 0px 1px 1px #33342D;
+  margin-top : 40px;
 }
+
 header h1 a:hover {
   color:  #FF3A1C;
   text-decoration: none;
 }
 
+
 @media (min-width: 500px) {
   header h1 {
-    font-size: 50px;
+    font-size: 40px;
     line-height: 48px;
 
     padding-top: 20px;
   }
 }
+
+
 
 header {
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
