@@ -6,6 +6,7 @@ description: 'Blog of the Cape Town Node.js user group'
 baseurl: http://nodecpt.github.com/
 twitter_search: '#nodecpt OR @nodecpt -from:Nodejs_bot'
 siteName: 'Node Cape Town'
+paginate: 3
 hashtag: '#nodecpt'
 github_login: 'nodecpt'
 github_repo: 'nodecpt.github.com'
