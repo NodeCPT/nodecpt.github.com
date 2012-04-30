@@ -1,0 +1,7 @@
+<h3>Latest Events</h3>
+<ul class='nav nav-list'>
+  {% for article in site.categories.meetup limit:5 %}
+    <li><a href='{{article.url}}'>{{article.title}}</a></li>
+  {% endfor %}
+</ul>
+
