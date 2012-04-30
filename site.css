@@ -39,6 +39,7 @@ h1, h2 { color: #FF3A1C; }
 .main {
   background-color: #fcfcff;
   padding: 10px 20px;
+  margin-bottom: 20px;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
@@ -115,7 +116,7 @@ footer {
   padding-top: 10px;
 }
 
-.followers li {
+.tweets li, .followers li {
   float: left;
   margin: 5px 0 0 6px;
 
@@ -129,7 +130,7 @@ footer {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25)
 }
 
-.github-user img {
+.tweet img, .github-user img {
   width: 45px;
   height: 45px;
 }

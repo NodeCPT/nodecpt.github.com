@@ -1,12 +1,11 @@
-<a class='watch btn btn-large btn-primary' 
-  href='http://github.com/{{site.github_login}}/{{site.github_repo}}'>Watch this event</a>
-<div class='watch-docs'>
-  <p>Watch this event by watching its repository on GitHub.</p>
-  <ol>
-    <li>Click on the "Watch this event" button.</li>
-    <li>Login to GitHub or signup for a new account.</li>
-    <li>Click the watch button for the repo.</li>
-  </ol>
-  <img src='assets/watch.png' />
-</div>
+<script id='watcherTpl' type='text/underscore'>
+  <li>
+  <a class='github-user' target='_blank'
+    data-content='<%= model.escape('login') %>'
+    href='http://github.com/<%= model.get('login') %>'>
+    <img src='<%= model.get('avatar_url') %>' />
+  </a>
+  </li>
+</script>
+<h3>Github Followers</h3>
 <ul class='followers unstyled'></ul>

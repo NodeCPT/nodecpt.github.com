@@ -26,43 +26,14 @@
      <div class='row'>
        <div id='content' class='span9'>
          {{content}}
-          <h4>Follow <a href='http://twitter.com/NodeCPT'>@NodeCPT</a> for the latest info</h4>
        </div>
        <div id='sidebar' class='span3'>
+         {% include menu.html %}
+         {% include twitter.html %}
          {% include github.html %}
       </div>
     </div>
   </div>
-
-  <footer class='container footer'>
-  <div class='row'>
-    <div id='content' class='span12'>
-      <h5>Tweets that mention #NodeCPT</h5>
-      <ul class="tweets thumbnails"></ul>
-    </div>
-  </div>
-  </footer>
-
-  <script id='watcherTpl' type='text/underscore'>
-    <li>
-    <a class='github-user' target='_blank'
-      data-content='<%= model.escape('login') %>'
-      href='http://github.com/<%= model.get('login') %>'>
-        <img src='<%= model.get('avatar_url') %>' />
-      </a>
-    </li>
-  </script>
-
-  <script id='tweetTpl' type='text/undercore'>
-    <li class='span1'>
-    <a class='tweet thumbnail' target='_blank'
-      data-title='<%= model.get('from_user') %>'
-      data-content='<%= model.escape('text') %>'
-      href='http://twitter.com/<%=model.get('from_user')%>/status/<%=model.get('id_str')%>'>
-        <img src='<%= model.get('profile_image_url') %>' />
-      </a>
-    </li>
-  </script>
   <script src='{{base}}site.js' type='text/javascript'></script>
 </body>
 </html>

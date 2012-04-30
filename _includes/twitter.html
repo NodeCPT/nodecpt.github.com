@@ -1,0 +1,15 @@
+
+<script id='tweetTpl' type='text/undercore'>
+  <li>
+  <a class='tweet' target='_blank'
+    data-title='<%= model.get('from_user') %>'
+    data-content='<%= model.escape('text') %>'
+    href='http://twitter.com/<%=model.get('from_user')%>/status/<%=model.get('id_str')%>'>
+    <img src='<%= model.get('profile_image_url') %>' />
+  </a>
+  </li>
+</script>
+
+<h3>Recent Tweets</h3>
+<ul class="tweets unstyled"></ul>
+
