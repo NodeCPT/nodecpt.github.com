@@ -4,6 +4,7 @@ layout: post
 category: meetup
 location: CodeBridge
 locationLink: http://www.codebridge.co.za/doku.php
+lanyard: http://lanyrd.com/2012/nodecpt/
 presentations:
   -
     title: Mapbox and Tilemill. 
