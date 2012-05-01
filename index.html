@@ -8,6 +8,10 @@ rss: /blog.rss
 <section class='posts'>
   {% for page in paginator.posts %}
     {% include post.html %}
+    {% if forloop.last %}
+    {% else %}
+       <hr class='soften' />
+    {% endif %}
   {% endfor %}
 
   <ul class="pager">
