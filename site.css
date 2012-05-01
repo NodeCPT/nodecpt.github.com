@@ -115,6 +115,9 @@ footer {
   width: 100%;
   padding-top: 10px;
 }
+.tweets, .followers {
+  margin-bottom: 18px;
+}
 
 .tweets li, .followers li {
   float: left;
@@ -134,64 +137,37 @@ footer {
   width: 45px;
   height: 45px;
 }
-#sidebar .btn {
-  width: 190px;
-}
+
 span.label { margin-right: 5px; }
-
-.watch-docs {
-  opacity:0;
-  z-index:-1000;
-  font-size:12px;
-  position:absolute;
-  top:-20px;
-  left:-320px;
-  width:275px;
-  background:white;
-  border:1px solid #CACACA;
-  padding:15px 15px 10px;
-  -webkit-border-radius:5px;
-  -moz-border-radius:5px;
-  border-radius:5px;
-  transition:opacity .25s, z-index 0s .25s;
-  -moz-transition:opacity .25s, z-index 0s .25s;
-  -webkit-transition:opacity .25s, z-index 0s .25s;
-}
-
-.watch-docs.active {
-  opacity:100;
-  z-index:0;
-  transition:opacity .25s, z-index 0s 0s;
-  -moz-transition:opacity .25s, z-index 0s 0s;
-  -webkit-transition:opacity .25s, z-index 0s 0s;
-}
-
-.watch-docs ol {
-  list-style-type:decimal;
-  padding-left:20px
-}
-
-.watch-docs img {
-  margin:10px 15px 0px;
-  text-align:center;
-}
-
 
 .published {
 	display:block;
 	text-align: center;
-	float:right;
- padding: 0 10px;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
 }
 .pub-month {
 	display:block; 
-	font-size: .9em;
+  font-size: 12px;
+  line-height: 15px;
 }
 .pub-date { 
-	display:block; 
-	font-size:1.4em;
+	display:block;
+  line-height: 20px;
+  font-size: 20px;
 }
-
+.well {
+   padding: 10px;
+}
+.next-event h4 {
+  font-size: 14px;
+  line-height: 18px;
+}
+.next-event a {
+   font-size: 18px;
+   line-height: 20px;
+}
 .published {
   color: #333333;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);

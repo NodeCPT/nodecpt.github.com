@@ -15,12 +15,6 @@ var models = {},
 
 $(function() { 
 
-    // TODO: build into a view
-    $('.watch').popover({
-        placement: 'bottom',
-        content: $('.watch-docs').html()
-    });
-
     new views.Watchers({
         collection: new models.Watchers()
     });

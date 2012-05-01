@@ -1,7 +1,10 @@
-<h3>Latest Events</h3>
-<ul class='nav nav-list'>
-  {% for article in site.categories.meetup limit:5 %}
-    <li><a href='{{article.url}}'>{{article.title}}</a></li>
-  {% endfor %}
-</ul>
-
+<div class='well clearfix next-event'>
+{% for item in site.categories.meetup limit:1 %}
+   <acronym class="pull-left published" title="{{item.time | date:"%b %d %Y"}}">
+      <span class="pub-month">{{item.time | date:"%b"}}</span>
+      <span class="pub-date">{{item.time | date:"%d"}}</span>
+    </acronym>
+     <h4>Our Next Event</h4>
+     <a href='{{item.url}}'>{{item.title}}</a>
+    {% endfor %}
+</div>
