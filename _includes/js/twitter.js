@@ -57,7 +57,7 @@ views.Tweets = Backbone.View.extend({
     },
     render: function(options) {
         var self = this;
-        this.collection.chain().first(12).each(function (m) {
+        this.collection.chain().each(function (m) {
             self.$el.append(self.template({model: m}));
         });
         $('.tweet').popover({placement: 'top'});
