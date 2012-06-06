@@ -3,7 +3,7 @@ title: June Meetup
 layout: post
 category: meetup
 location: CodeBridge
-locationLink: http://www.codebridge.co.za/doku.php
+locationLink: http://www.codebridge.co.za/
 lanyard: http://lanyrd.com/2012/nodecpt-june/
 presentations:
   -
@@ -13,7 +13,7 @@ presentations:
     name: Adrian Rossouw
 time: "2012-06-07 18:30:00"
 ---
-The June NodeCPT meetup will be held on the __7th of June 2012__ at [CodeBridge](http://www.codebridge.co.za/doku.php?id=directions) in Claremont. This is a great opportunity to learn more about node.js, hear how people are using it, and get to know other local developers using and considering node.js.
+The June NodeCPT meetup will be held on the __7th of June 2012__ at [CodeBridge](http://www.codebridge.co.za/) in Claremont. This is a great opportunity to learn more about node.js, hear how people are using it, and get to know other local developers using and considering node.js.
 
 {% include presentations.html %}
 
