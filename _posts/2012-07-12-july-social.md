@@ -6,7 +6,7 @@ location: CodeBridge
 locationLink: http://www.codebridge.co.za/
 lanyard: http://lanyrd.com/2012/nodecpt-july/
 time: "2012-07-19 18:30:00"
-published: false
+published: true
 ---
 The July NodeCPT social will be held on the __19th of July 2012__ at [CodeBridge](http://www.codebridge.co.za/) in Claremont. This is a great opportunity to learn more about node.js, hear how people are using it, and get to know other local developers using and considering node.js.
 
