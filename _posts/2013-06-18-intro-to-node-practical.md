@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Practical Introduction to NodeJS
 layout: post
 time: "2013-06-19 18:00"
