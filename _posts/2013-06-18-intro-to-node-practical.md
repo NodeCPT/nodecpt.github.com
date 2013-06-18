@@ -13,12 +13,20 @@ presentations:
     name: Simon Bishop
 ---
 
-We have decided to organize a meet and greet this week to get the wheels rolling on this user group.
+Follow up to our first meetup about the [Intro to NodeJS](http://johanndutoit.net/presentations/2013/05/node-meetup-intro-29-may-2013/index.html) is happening on __19 June 2013__ at [Acceleration, 2nd Floor, Longkloof Studios, Darters Road, Gardens](https://maps.google.co.za/maps?q=acceleration+darters+road+cape+town&ie=UTF-8&ei=z92xUevyK66f7AaS0IDwBg&ved=0CAsQ_AUoAg).
 
-We do plan on announcing a more formal meetup soon, but it would be nice to get to know each other a bit beforehand.
+{% include presentations.html %}
 
-If you are interested in taking part in this node.js user group, please join us on Thursday for a couple of beers and some interesting conversation.
+[Simon Bishop](https://github.com/southbite) is presenting a Practical Introduction to NodeJS. This session will focus on building a actual NodeJS Clustered System. That will show the power of NodeJS. Think multiple Nodes talking to each other with a very cool visual presentation of the connected Nodes. Should be great !
 
-We are hoping to get a handle on the size of the community and its general interests. This information will help us plan the format and content of future meetups.
+[Acceleration](http://www.acceleration.biz/) has provided the venue.
 
-**UPDATE:** We are moving the location so that we can join up with the codebridge Happy Hour which was already planned to take place at exactly the same time. Arrive, meet people, have some beers (we'll bring a few) and we'll take it from there. More details on the [codebridge wiki](http://www.codebridge.co.za/doku.php?id=happy_hour).
+[KeyConnections](http://www.keyconnections.co.za/) has graciously sponsored free Pizza for the event.
+
+We will try our best to find a sponsor for some Beer and Drinks.
+
+Doors will open from 18:00 and we will try to get started at the latest by 19:00, If you're early pop by and have a drink with us. We plan to wrap up by 21:00 at the most.
+
+These meetings are a great way to meet other developers who have similar interests, and offer amazing opportunities to learn from each other. Also, they are a great excuse to get out of the house and socialize.
+
+We hope to see you there!
