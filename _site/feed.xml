@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Node Cape Town</title>
+		<description>Blog of the Cape Town Node.js user group</description>
+    <link>http://nodecpt.github.com/</link>
+    <pubDate>Tue, 18 Jun 2013 20:06:33 +0200</pubDate>
+    <lastBuildDate>Tue, 18 Jun 2013 20:06:33 +0200</lastBuildDate>
+    
+		
+			<item>
+				<title>June Meetup</title>
+        <pubDate>Tue, 18 Jun 2013 00:00:00 +0200</pubDate>
+				<description>&lt;p&gt;Follow up to our first meetup about the &lt;a href='http://johanndutoit.net/presentations/2013/05/node-meetup-intro-29-may-2013/index.html'&gt;Intro to NodeJS&lt;/a&gt; is happening on &lt;strong&gt;19 June 2013&lt;/strong&gt; at &lt;a href='https://maps.google.co.za/maps?q=acceleration+darters+road+cape+town&amp;amp;ie=UTF-8&amp;amp;ei=z92xUevyK66f7AaS0IDwBg&amp;amp;ved=0CAsQ_AUoAg'&gt;Acceleration, 2nd Floor, Longkloof Studios, Darters Road, Gardens&lt;/a&gt;.&lt;/p&gt;
+&lt;div class='presentations'&gt;
+  &lt;h3&gt;Presentations&lt;/h3&gt;
+
+  &lt;ul class='unstyled'&gt;
+    
+    &lt;li class='well'&gt;
+    &lt;h4&gt;Practical Introduction to NodeJS by &lt;a href='http://github.com/southbite/'&gt;Simon Bishop&lt;/a&gt;&lt;/h4&gt;
+    Learning NodeJS by building a Clustered Network of NodeJS Instances. In a hour or two !
+    &lt;/li&gt;
+    
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href='https://github.com/southbite'&gt;Simon Bishop&lt;/a&gt; is presenting a Practical Introduction to NodeJS. This session will focus on building a actual NodeJS Clustered System. That will show the power of NodeJS. Think multiple Nodes talking to each other with a very cool visual presentation of the connected Nodes. Should be great !&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://www.acceleration.biz/'&gt;Acceleration&lt;/a&gt; has provided the venue.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://www.keyconnections.co.za/'&gt;KeyConnections&lt;/a&gt; has graciously sponsored free Pizza for the event.&lt;/p&gt;
+
+&lt;p&gt;We will try our best to find a sponsor for some Beer and Drinks.&lt;/p&gt;
+
+&lt;p&gt;Doors will open from 18:00 and we will try to get started at the latest by 19:00, If you&amp;#8217;re early pop by and have a drink with us. We plan to wrap up by 21:00 at the latest.&lt;/p&gt;
+
+&lt;p&gt;These meetings are a great way to meet other developers who have similar interests, and offer amazing opportunities to learn from each other. Also, they are a great excuse to get out of the house and socialize.&lt;/p&gt;
+
+&lt;p&gt;We hope to see you there!&lt;/p&gt;</description>
+        <guid>http://nodecpt.github.com//2013/06/intro-to-node-practical</guid>
+				<link>/2013/06/intro-to-node-practical</link>
+			</item>
+		
+			<item>
+				<title>September Meetup</title>
+        <pubDate>Sat, 22 Sep 2012 00:00:00 +0200</pubDate>
+				<description>&lt;p&gt;The September NodeCPT meetup will be held on the &lt;strong&gt;27th of September 2012&lt;/strong&gt; at &lt;a href='http://www.codebridge.co.za/'&gt;CodeBridge&lt;/a&gt; in Claremont.&lt;/p&gt;
+
+&lt;p&gt;We will be continuing our series of presentations on popular javascript libraries with a look at &lt;a href='http://backbonejs.org'&gt;Backbone.js&lt;/a&gt;.&lt;/p&gt;
+&lt;div class='presentations'&gt;
+  &lt;h3&gt;Presentations&lt;/h3&gt;
+
+  &lt;ul class='unstyled'&gt;
+    
+    &lt;li class='well'&gt;
+    &lt;h4&gt;Intro to Backbone.js by &lt;a href='http://github.com/Vertice/'&gt;Adrian Rossouw&lt;/a&gt;&lt;/h4&gt;
+    I will be explaining the structure of this incredibly popular MVC library, through slides and also example code that will be built onto our example application from the previous node.js live coding demonstration.
+    &lt;/li&gt;
+    
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;There will be beer provided at the venue, and if you want to come earlier to hang out with us, the door will be open. We will try to get the presentation started by 19:00, and will try to get everything &amp;#8216;official&amp;#8217; wrapped up by 20:30 at the very latest so people can grab something to eat.&lt;/p&gt;
+
+&lt;p&gt;We hope to see you there!&lt;/p&gt;</description>
+        <guid>http://nodecpt.github.com//2012/09/september-meetup</guid>
+				<link>/2012/09/september-meetup</link>
+			</item>
+		
+			<item>
+				<title>August Meetup</title>
+        <pubDate>Fri, 17 Aug 2012 00:00:00 +0200</pubDate>
+				<description>&lt;p&gt;The August NodeCPT meetup will be held on the &lt;strong&gt;23rd of August 2012&lt;/strong&gt; at &lt;a href='http://www.codebridge.co.za/'&gt;CodeBridge&lt;/a&gt; in Claremont.&lt;/p&gt;
+
+&lt;p&gt;After a break from our presentation schedule, we will be returning with the first part in a series of presentations aimed at introducing some of the more popular node.js libraries.&lt;/p&gt;
+&lt;div class='presentations'&gt;
+  &lt;h3&gt;Presentations&lt;/h3&gt;
+
+  &lt;ul class='unstyled'&gt;
+    
+    &lt;li class='well'&gt;
+    &lt;h4&gt;Intro to Underscore.js by &lt;a href='http://github.com/Vertice/'&gt;Adrian Rossouw&lt;/a&gt;&lt;/h4&gt;
+    I'll run through some of the features of the most depended on package in npm. Underscore.js is quickly becoming a requirement for both server-side and client side developers, and its collection of small utility functions will help you work more efficiently with data structures. Underscore.js also forms the basis or inspiration for several other popular libraries, such as Backbone and Spine.
+    &lt;/li&gt;
+    
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;The presentation itself will be fairly short this time, so if anyone wants to present on their pet library there will definitely be time. This presentation will be followed by an introduction to Backbone in September and then in October we will be covering Socket.io.&lt;/p&gt;
+
+&lt;p&gt;There will be beer provided at the venue, and if you want to come earlier to hang out with us, the door will be open. We will try to get the presentation started by 18:30, and will try to get everything &amp;#8216;official&amp;#8217; wrapped up by 20:30 at the very latest so people can grab something to eat.&lt;/p&gt;
+
+&lt;p&gt;We hope to see you there!&lt;/p&gt;</description>
+        <guid>http://nodecpt.github.com//2012/08/august-meetup</guid>
+				<link>/2012/08/august-meetup</link>
+			</item>
+		
+			<item>
+				<title>July Social</title>
+        <pubDate>Thu, 12 Jul 2012 00:00:00 +0200</pubDate>
+				<description>&lt;p&gt;The July NodeCPT social will be held on the &lt;strong&gt;19th of July 2012&lt;/strong&gt; at &lt;a href='http://www.codebridge.co.za/'&gt;CodeBridge&lt;/a&gt; in Claremont. This is a great opportunity to learn more about node.js, hear how people are using it, and get to know other local developers using and considering node.js.&lt;/p&gt;
+
+&lt;p&gt;We are taking a break this month from the usual technical content to organize a meet-and-greet instead. Our last few meetings have been heavily presentation oriented, which hasn&amp;#8217;t allowed us much opportunity to get to know each other.&lt;/p&gt;
+
+&lt;p&gt;The official times are between 18:30 and 20:00, but if you want to come earlier to hang out with us, the door will be open. There will be beer provided at the venue, so all you need to bring is yourself, a healthy sense of curiosity and perhaps some node.js war stories to regale us with.&lt;/p&gt;
+
+&lt;p&gt;We hope to see you there!&lt;/p&gt;</description>
+        <guid>http://nodecpt.github.com//2012/07/july-social</guid>
+				<link>/2012/07/july-social</link>
+			</item>
+		
+			<item>
+				<title>June Meetup</title>
+        <pubDate>Fri, 25 May 2012 00:00:00 +0200</pubDate>
+				<description>&lt;p&gt;The June NodeCPT meetup will be held on the &lt;strong&gt;7th of June 2012&lt;/strong&gt; at &lt;a href='http://www.codebridge.co.za/'&gt;CodeBridge&lt;/a&gt; in Claremont. This is a great opportunity to learn more about node.js, hear how people are using it, and get to know other local developers using and considering node.js.&lt;/p&gt;
+&lt;div class='presentations'&gt;
+  &lt;h3&gt;Presentations&lt;/h3&gt;
+
+  &lt;ul class='unstyled'&gt;
+    
+    &lt;li class='well'&gt;
+    &lt;h4&gt;Building My First Nodeapp by &lt;a href='http://github.com/Vertice/'&gt;Adrian Rossouw&lt;/a&gt;&lt;/h4&gt;
+    &lt;ul&gt;&lt;li&gt;&lt;strong&gt;Live Coding Session!&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;Walking you through the very beginning of building a node application.&lt;/li&gt;&lt;li&gt;We'll start only with a text editor, and the best of intentions.&lt;/li&gt;&lt;li&gt;work our way up to getting something on the page&lt;/li&gt;&lt;li&gt;finally accepting and acting on input.&lt;/li&gt;&lt;li&gt;Along the way we'll find things like Express.js, Jade, Middleware and REST.&lt;/li&gt;&lt;li&gt;This presentation may also contain trace elements of CouchDB.&lt;/li&gt;&lt;/ul&gt;
+    &lt;/li&gt;
+    
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;Due to the unconventional nature of the presentation, we might run late to about 20:30 on thursday night. This is dependent on how many questions we get and how quickly we can work through the material. The application will be posted on github afterwards.&lt;/p&gt;
+
+&lt;p&gt;There will be beer provided at the venue, and if you want to come earlier to hang out with us, the door will be open. We will try to get the presentation started by 18:30, and will try to get everything &amp;#8216;official&amp;#8217; wrapped up by 20:30 at the very latest so people can grab something to eat.&lt;/p&gt;
+
+&lt;p&gt;We hope to see you there!&lt;/p&gt;</description>
+        <guid>http://nodecpt.github.com//2012/05/june-meetup</guid>
+				<link>/2012/05/june-meetup</link>
+			</item>
+		
+			<item>
+				<title>Infrastructure Improvements</title>
+        <pubDate>Tue, 01 May 2012 00:00:00 +0200</pubDate>
+				<description>&lt;p&gt;We hit a bit of a wobble last week when we realized that the change of date might not have reached everybody in time. If you drove to the venue only to find a note on the door, we are truly sorry to have inconvenienced you.&lt;/p&gt;
+
+&lt;p&gt;To avoid something like this happening in the future, we have made improvements to the website and put some additional infrastructure in place.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;We now have a &lt;a href='https://groups.google.com/group/nodecpt'&gt;NodeCPT Google Group&lt;/a&gt;, which acts as a mailing list.&lt;/li&gt;
+
+&lt;li&gt;The sidebar now contains the the links to all the relevant services you can use to connect with us.&lt;/li&gt;
+
+&lt;li&gt;Added a link to the RSS feed of this site.&lt;/li&gt;
+
+&lt;li&gt;The sidebar now has a block showing the date of the next event, as well as a link to the relevant page.&lt;/li&gt;
+
+&lt;li&gt;Event pages now have a link to the relevant &lt;a href='http://www.lanyard.com'&gt;Lanyard&lt;/a&gt; event, and we will be adding a new event for each meeting. This way you can see who will be attending.&lt;/li&gt;
+
+&lt;li&gt;Twitter block is no longer relegated to the footer.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;We look forward to seeing everybody on thursday, and if you have any other suggestions, please drop us a line on twitter or any of the other channels.&lt;/p&gt;</description>
+        <guid>http://nodecpt.github.com//2012/05/infrastructure-changes</guid>
+				<link>/2012/05/infrastructure-changes</link>
+			</item>
+		
+			<item>
+				<title>April Meetup</title>
+        <pubDate>Thu, 29 Mar 2012 00:00:00 +0200</pubDate>
+				<description>&lt;p&gt;&lt;strong&gt;Imporant Notice:&lt;/strong&gt; Due to some technical difficulties, and the preponderance of long weekends in the silly season, we have decided to reschedule our April meetup to be held on the &lt;strong&gt;3rd of May 2012&lt;/strong&gt; at &lt;a href='http://www.codebridge.co.za/doku.php?id=directions'&gt;CodeBridge&lt;/a&gt; in Claremont.&lt;/p&gt;
+
+&lt;p&gt;We will be having a series of show-and-tell session about projects that have been built with Node.js and especially those that play to it&amp;#8217;s strengths.&lt;/p&gt;
+&lt;div class='presentations'&gt;
+  &lt;h3&gt;Presentations&lt;/h3&gt;
+
+  &lt;ul class='unstyled'&gt;
+    
+    &lt;li class='well'&gt;
+    &lt;h4&gt;Mapbox and Tilemill. by &lt;a href='http://github.com/Vertice/'&gt;Adrian Rossouw&lt;/a&gt;&lt;/h4&gt;
+    TileMill is an application for making beautiful maps. Whether you're a journalist, web designer, researcher,	 or seasoned cartographer, TileMill is the design studio you need to create compelling, interactive maps.
+    &lt;/li&gt;
+    
+    &lt;li class='well'&gt;
+    &lt;h4&gt;Browserquest by &lt;a href='http://github.com/lerouxb/'&gt;Le Roux Bodenstein&lt;/a&gt;&lt;/h4&gt;
+    BrowserQuest is a tribute to classic video-games with a multiplayer twist. You play as a young warrior driven by the thrill of adventure. No princess to save here, just a dangerous world filled with treasures to discover. And it’s all done in glorious HTML5 and JavaScript.
+    &lt;/li&gt;
+    
+    &lt;li class='well'&gt;
+    &lt;h4&gt;Lightnode - static file server for node.js by &lt;a href='http://github.com/timlind/'&gt;Tim Lind&lt;/a&gt;&lt;/h4&gt;
+    Lightnode is provided as a javascript event based library, based on node.js. This design provides unprecendented control to developers (as well as lightning speeds) and with a powerful language like javascript it's easy to do anything imaginable.
+    &lt;/li&gt;
+    
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;There will be beer provided at the venue, and if you want to come earlier to hang out with us, the door will be open. We will try to get the presentation started by 18:30, and will try to get everything &amp;#8216;official&amp;#8217; wrapped up by 20:00 at the very latest so people can grab something to eat.&lt;/p&gt;
+
+&lt;p&gt;We hope to see you there!&lt;/p&gt;</description>
+        <guid>http://nodecpt.github.com//2012/03/april-meeting</guid>
+				<link>/2012/03/april-meeting</link>
+			</item>
+		
+			<item>
+				<title>Feedback from March meeting</title>
+        <pubDate>Mon, 12 Mar 2012 00:00:00 +0200</pubDate>
+				<description>&lt;p&gt;&lt;a href='http://twitter.com/__leroux'&gt;Le Roux Bodenstein&lt;/a&gt; gave a not-so-quick introduction to node. The slides as well as the code for the &lt;a href='http://socket.io/'&gt;socket.io&lt;/a&gt;-powered server for advancing the slides are up on &lt;a href='http://github.com/lerouxb/nodeintro'&gt;github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The turnout was quite impressive and the people that attended came from varying backgrounds: Some PHP, Ruby, Python, .NET and even Java programmers.&lt;/p&gt;
+&lt;ul class='thumbnails'&gt;
+  
+  &lt;li class='span2'&gt;
+    
+      &lt;a href='/images/2012-03-12/photo1.jpeg' class='thumbnail'&gt;&lt;img src='/images/2012-03-12/photo1.thumb.png' /&gt;&lt;/a&gt;
+    
+  &lt;/li&gt;
+  
+  &lt;li class='span2'&gt;
+    
+      &lt;a href='/images/2012-03-12/photo2.jpeg' class='thumbnail'&gt;&lt;img src='/images/2012-03-12/photo2.thumb.png' /&gt;&lt;/a&gt;
+    
+  &lt;/li&gt;
+  
+  &lt;li class='span2'&gt;
+    
+      &lt;a href='/images/2012-03-12/photo3.jpeg' class='thumbnail'&gt;&lt;img src='/images/2012-03-12/photo3.thumb.png' /&gt;&lt;/a&gt;
+    
+  &lt;/li&gt;
+  
+&lt;/ul&gt;
+&lt;h3 id='next_meeting'&gt;Next Meeting&lt;/h3&gt;
+
+&lt;p&gt;We&amp;#8217;re planning on doing a series of short showcase-style presentations where we show off projects that use node in the wild. If you want to present an app, library, framework or whatever that was written using node.js, please ping us on twitter. Ideas would include projects that make good use of some of node or JavaScript&amp;#8217;s strengths or actually just anything that uses node. So far &lt;a href='http://twitter.com/AdrianRossouw'&gt;Adrian&lt;/a&gt; and &lt;a href='http://twitter.com/__leroux'&gt;Le Roux&lt;/a&gt; will be presenting.&lt;/p&gt;
+
+&lt;p&gt;The next meeting will be on the 5th of April. We&amp;#8217;ll likely post again closer to the time with updated information.&lt;/p&gt;</description>
+        <guid>http://nodecpt.github.com//2012/03/march-feedback</guid>
+				<link>/2012/03/march-feedback</link>
+			</item>
+		
+			<item>
+				<title>Lanyrd</title>
+        <pubDate>Tue, 28 Feb 2012 00:00:00 +0200</pubDate>
+				<description>&lt;p&gt;Hi. We&amp;#8217;re trying to get a feel for how many people are coming to the &lt;a href='http://nodecpt.github.com/2012/02/march-meetup/'&gt;March meetup&lt;/a&gt; on thursday, so we set up an event on &lt;a href='http://lanyrd.com/2012/nodecpt-march/attendees/'&gt;Lanyrd&lt;/a&gt; to try and track this sort of thing.&lt;/p&gt;
+
+&lt;p&gt;Please &lt;a href='http://lanyrd.com/2012/nodecpt-march/attendees/'&gt;add yourself as an attendee&lt;/a&gt; if you&amp;#8217;re coming so that we know how much beer to buy, how many chairs we have to borrow and generally how stressed the &lt;a href='http://twitter.com/__leroux'&gt;first-time speaker&lt;/a&gt; has to be. Oh and if someone knows of a projector we could borrow, &lt;a href='http://twitter.com/NodeCPT'&gt;please get in contact with us&lt;/a&gt;. Otherwise we&amp;#8217;ll just wing it with a relatively large monitor.&lt;/p&gt;</description>
+        <guid>http://nodecpt.github.com//2012/02/lanyrd</guid>
+				<link>/2012/02/lanyrd</link>
+			</item>
+		
+			<item>
+				<title>March Meetup</title>
+        <pubDate>Thu, 23 Feb 2012 00:00:00 +0200</pubDate>
+				<description>&lt;p&gt;Our first official meetup is going to be happening on the &lt;strong&gt;1st of March 2012&lt;/strong&gt; at &lt;a href='http://www.codebridge.co.za/doku.php?id=directions'&gt;CodeBridge&lt;/a&gt; in Claremont.&lt;/p&gt;
+
+&lt;p&gt;Our goal this time is going to give everybody a crash course about exactly what node.js is, how it works and when you should use it. If you have heard about it, but aren&amp;#8217;t sure if it is for you, then you should come to this meeting. Experts are also welcome.&lt;/p&gt;
+
+&lt;p&gt;There will be beer provided at the venue, and if you want to come earlier to hang out with us, the door will be open. We will try to get the presentation started by 18:30, and will try to get everything &amp;#8216;official&amp;#8217; wrapped up by 20:00 at the very latest so people can grab something to eat.&lt;/p&gt;
+&lt;div class='presentations'&gt;
+  &lt;h3&gt;Presentations&lt;/h3&gt;
+
+  &lt;ul class='unstyled'&gt;
+    
+    &lt;li class='well'&gt;
+    &lt;h4&gt;A Pragmatic Introduction to Node.js by &lt;a href='http://github.com/lerouxb/'&gt;Le Roux Bodenstein&lt;/a&gt;&lt;/h4&gt;
+    What is a 'node'? What does it do? Can I eat it?
+    &lt;/li&gt;
+    
+  &lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;These meetings are a great way to meet other developers who have similar interests, and offer amazing opportunities to learn from each other. Also, they are a great excuse to get out of the house and socialize.&lt;/p&gt;
+
+&lt;p&gt;We hope to see you there!&lt;/p&gt;</description>
+        <guid>http://nodecpt.github.com//2012/02/march-meetup</guid>
+				<link>/2012/02/march-meetup</link>
+			</item>
+		
+	</channel>
+</rss>

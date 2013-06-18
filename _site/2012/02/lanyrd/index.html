@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Lanyrd | Node.js Cape Town</title>
+    <meta name="description" content="Cape Town Node.js Users">
+    <meta name="author" content="Adrian Rossouw">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link href='http://fonts.googleapis.com/css?family=Audiowide|Lato:400|Karla:400,700' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='http://nodecpt.github.com/site.css' type='text/css'/>
+    <link rel="alternate" type="application/rss+xml" href="http://nodecpt.github.com/feed.xml" />
+
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31061258-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body>
+
+  <header>
+    <h1><a class="brand" href="/">Node.js Cape Town</a></h1>
+  </header>
+  
+  <div class='container main'>
+     <div class='row'>
+       <div id='content' class='span9'>
+         <div class='meta clearfix'>
+  
+  <a href='/2012/02/lanyrd'><h2>Lanyrd</h2></a>
+  <span class='pull-left label'>28 February 2012</span>
+</div>
+<div class='content'>
+  
+    <p>Hi. We&#8217;re trying to get a feel for how many people are coming to the <a href='http://nodecpt.github.com/2012/02/march-meetup/'>March meetup</a> on thursday, so we set up an event on <a href='http://lanyrd.com/2012/nodecpt-march/attendees/'>Lanyrd</a> to try and track this sort of thing.</p>
+
+<p>Please <a href='http://lanyrd.com/2012/nodecpt-march/attendees/'>add yourself as an attendee</a> if you&#8217;re coming so that we know how much beer to buy, how many chairs we have to borrow and generally how stressed the <a href='http://twitter.com/__leroux'>first-time speaker</a> has to be. Oh and if someone knows of a projector we could borrow, <a href='http://twitter.com/NodeCPT'>please get in contact with us</a>. Otherwise we&#8217;ll just wing it with a relatively large monitor.</p>
+  
+</div>
+
+
+       </div>
+       <div id='sidebar' class='span3'>
+         <h4>How To Get Involved</h4>
+<ul class="nav nav-pills nav-stacked">
+  <li><a href="https://groups.google.com/group/nodecpt">Join our Google Group</a></li>
+  <li><a href="http://twitter.com/NodeCPT">Follow us on Twitter</a></li>
+  <li><a href="http://github.com/NodeCPT/nodecpt.github.com">Watch us on GitHub</a></li>
+  <li><a href="/feed.xml">Subscribe to us with RSS</a></li>
+</ul>
+
+         <div class='well clearfix next-event'>
+
+   <acronym class="pull-left published" title="Jun 19 2013">
+      <span class="pub-month">Jun</span>
+      <span class="pub-date">19</span>
+    </acronym>
+     <h4>Our Next Event</h4>
+     <a href='/2013/06/intro-to-node-practical'>June Meetup</a>
+    
+</div>
+
+         <h4>Recent Posts</h4>
+<ul class='nav nav-pills nav-stacked'>
+  
+    <li><a href='/2013/06/intro-to-node-practical'>June Meetup</a></li>
+  
+    <li><a href='/2012/09/september-meetup'>September Meetup</a></li>
+  
+    <li><a href='/2012/08/august-meetup'>August Meetup</a></li>
+  
+    <li><a href='/2012/07/july-social'>July Social</a></li>
+  
+    <li><a href='/2012/05/june-meetup'>June Meetup</a></li>
+  
+</ul>
+
+         
+<script id='tweetTpl' type='text/undercore'>
+  <li>
+  <a class='tweet' target='_blank'
+    data-title='<%= model.get('from_user') %>'
+    data-content='<%= model.escape('text') %>'
+    href='http://twitter.com/<%=model.get('from_user')%>/status/<%=model.get('id_str')%>'>
+    <img src='<%= model.get('profile_image_url') %>' />
+  </a>
+  </li>
+</script>
+
+<h4>Recent Tweets</h4>
+<ul class="tweets clearfix unstyled"></ul>
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <script src='http://nodecpt.github.com/site.js' type='text/javascript'></script>
+</body>
+</html>
