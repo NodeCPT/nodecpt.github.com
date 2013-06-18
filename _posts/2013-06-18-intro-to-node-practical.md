@@ -25,7 +25,7 @@ Follow up to our first meetup about the [Intro to NodeJS](http://johanndutoit.ne
 
 We will try our best to find a sponsor for some Beer and Drinks.
 
-Doors will open from 18:00 and we will try to get started at the latest by 19:00, If you're early pop by and have a drink with us. We plan to wrap up by 21:00 at the most.
+Doors will open from 18:00 and we will try to get started at the latest by 19:00, If you're early pop by and have a drink with us. We plan to wrap up by 21:00 at the latest.
 
 These meetings are a great way to meet other developers who have similar interests, and offer amazing opportunities to learn from each other. Also, they are a great excuse to get out of the house and socialize.
 
