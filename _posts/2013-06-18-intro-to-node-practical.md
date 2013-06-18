@@ -3,6 +3,14 @@ published: false
 title: Practical Introduction to NodeJS
 layout: post
 time: "2013-06-19 18:00"
+category: meetup
+location: Acceleration Office
+locationLink: "https://maps.google.co.za/maps?q=acceleration+darters+road+cape+town&ie=UTF-8&ei=z92xUevyK66f7AaS0IDwBg&ved=0CAsQ_AUoAg"
+presentations: 
+  - title: Practical Introduction to NodeJS
+    description: "Learning NodeJS by building a Clustered Network of NodeJS Instances. In a hour or two !"
+    github: southbite
+    name: Simon Bishop
 ---
 
 We have decided to organize a meet and greet this week to get the wheels rolling on this user group.
