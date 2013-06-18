@@ -1,6 +1,6 @@
 ---
 published: true
-title: Practical Introduction to NodeJS
+title: June Meetup
 layout: post
 time: "2013-06-19 18:00"
 category: meetup
