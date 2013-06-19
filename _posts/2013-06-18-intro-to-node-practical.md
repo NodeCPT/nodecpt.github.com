@@ -13,7 +13,6 @@ presentations:
     name: Simon Bishop
 ---
 
-
 Following our first meetup about the [Intro to NodeJS](http://johanndutoit.net/presentations/2013/05/node-meetup-intro-29-may-2013/index.html) is happening on __19 June 2013__ at [Acceleration, 2nd Floor, Longkloof Studios, Darters Road, Gardens](https://maps.google.co.za/maps?q=acceleration+darters+road+cape+town&ie=UTF-8&ei=z92xUevyK66f7AaS0IDwBg&ved=0CAsQ_AUoAg).
 
 {% include presentations.html %}
@@ -31,3 +30,9 @@ Doors will open from 18:00 and we will try to get started at the latest by 19:00
 These meetings are a great way to meet other developers who have similar interests, and offer amazing opportunities to learn from each other. Also, they are a great excuse to get out of the house and socialize.
 
 We hope to see you there!
+
+--
+
+Source Code and Presentation:
+* [Source Code for Presentation](https://github.com/NodeCPT/Meetup-June-2013/)
+* [Presentation](https://github.com/NodeCPT/Meetup-June-2013/raw/master/doc/hands%20on%20node.pptx)
