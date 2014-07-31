@@ -5,31 +5,5 @@ rss: /blog.rss
 ---
 
 {% assign base = site.baseurl %}
-<section class='posts'>
-  {% for page in paginator.posts %}
-    {% include post.html %}
-    {% if forloop.last %}
-    {% else %}
-       <hr class='soften' />
-    {% endif %}
-  {% endfor %}
 
-  <ul class="pager">
-    {% if paginator.page > 1%}
-    <li class="previous">
-    {% if paginator.previous_page > 1 %}
-        <a href="{{base}}page{{paginator.previous_page}}">&larr; Newer</a>
-      {% else %}
-        <a href="{{base}}">&larr; Newer</a>
-      {%endif%}
-    </li>
-    {% endif %}
-
-    {% if paginator.next_page %}
-    <li class="next">
-      <a href="{{base}}page{{paginator.next_page}}">Older &rarr;</a>
-    </li>
-    {% endif %}
-  </ul>
-
-</section>
+<h1>We have moved to:<br /> <a href='http://www.meetup.com/nodecpt'>NodeCPT meetup group</a></h1>

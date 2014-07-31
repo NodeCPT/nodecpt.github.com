@@ -1,5 +1,3 @@
-auto: true
-server: true
 exclude: README.md, .gitignore
 permalink: '/:year/:month/:title' 
 description: 'Blog of the Cape Town Node.js user group'
